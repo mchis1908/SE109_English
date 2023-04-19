@@ -56,7 +56,7 @@ const MONGO_URL = dev ? process.env.MONGO_URL_LOCAL : process.env.MONGO_URL;
 mongoose.connect(MONGO_URL, {
   useUnifiedTopology: true,
   useNewUrlParser: true,
-  useCreateIndex: true,
+  // useCreateIndex: true,
 });
 
 // ================== config ==================

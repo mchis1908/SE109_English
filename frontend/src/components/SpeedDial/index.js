@@ -30,8 +30,8 @@ const actions = [
   { icon: <SettingButton />, name: 'Cài đặt', to: null, isBlank: false },
   {
     icon: <ContactMailIcon />,
-    name: 'Liên hệ Dyno',
-    to: LINKS.WEBSITE,
+    name: 'Liên hệ E-Kids',
+    to: LINKS.FB,
     isBlank: true,
   },
 ];

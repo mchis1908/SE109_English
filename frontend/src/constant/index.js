@@ -24,7 +24,7 @@ export const DEFAULTS = {
 };
 
 export const LINKS = {
-  FB: 'https://fb.com/TuanNguyen250400',
+  FB: 'https://www.facebook.com/mattron.linh.5',
   WEBSITE: 'https://dynonguyen.com',
 };
 
