@@ -27,19 +27,19 @@ const FEATURE_LIST = [
   },
   {
     title: '1000+ câu giao tiếp',
-    subTitle: 'Luyện nghe, nói câu tiếng Anh giao tiếp hàng ngày cùng Dyno',
+    subTitle: 'Luyện nghe, nói câu tiếng Anh giao tiếp hàng ngày',
     imgUrl: communicateIcon,
     to: ROUTES.COMMUNICATION_PHRASE,
   },
   {
     title: 'Từ vựng với Flashcard',
     subTitle:
-      'Flashcard phương pháp học từ vựng nổi tiếng. Nay hoàn toàn miễn phí trên Dynonary',
+      'Flashcard phương pháp học từ vựng nổi tiếng',
     imgUrl: flashcardIcon,
     to: ROUTES.FLASHCARD,
   },
   {
-    title: 'Từ điển trong Dynonary',
+    title: 'Từ điển',
     subTitle: 'Danh sách từ vựng được phân loại theo cấp độ, loại từ, ...',
     imgUrl: dictionaryIcon,
     to: ROUTES.DYNO_DICTIONARY,
@@ -72,7 +72,7 @@ const FEATURE_LIST = [
     title: 'Play Games',
     imgUrl: gameIcon,
     subTitle:
-      'Ôn luyện kiến thức hiệu quả và đỡ nhàm chán hơn qua việc chơi game cùng Dyno nhé',
+      'Ôn luyện kiến thức hiệu quả và đỡ nhàm chán hơn qua việc chơi game ',
     to: ROUTES.GAMES.HOME,
   },
   {
@@ -85,13 +85,13 @@ const FEATURE_LIST = [
     title: 'Đóng góp',
     imgUrl: editIcon,
     subTitle:
-      'Dyno rất mong được sự đóng góp của bạn. Bạn có thể thêm từ mới, sửa lỗi sai',
+      'Bạn có thể thêm từ mới, sửa lỗi sai',
     to: ROUTES.CONTRIBUTION,
   },
 ];
 
 function HomePage() {
-  useTitle('Dynonary - Ứng dụng học tiếng Anh miễn phí');
+  useTitle('E-KIDS - Ứng dụng học tiếng Anh cho trẻ em');
   useScrollTop();
 
   return (

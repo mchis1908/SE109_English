@@ -36,7 +36,7 @@ function Grammar({ list, loading }) {
     <div className={classes.wrapper}>
       <div className="container">
         <div className={classes.root}>
-          <h1 className="dyno-title">Học ngữ pháp cùng Dyno</h1>
+          <h1 className="dyno-title">Học ngữ pháp</h1>
           <div className="dyno-break"></div>
 
           <AutoSearchInput

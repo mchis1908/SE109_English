@@ -133,7 +133,7 @@ function WordContribution({ onSubmitForm, submitting }) {
               dispatch(
                 setMessage({
                   type: 'warning',
-                  message: `Từ ${word} (${type}) đã tồn tại trong Dynonary !`,
+                  message: `Từ ${word} (${type}) đã tồn tại trong từ điển !`,
                   duration: 2000,
                 }),
               );
@@ -147,7 +147,7 @@ function WordContribution({ onSubmitForm, submitting }) {
 
   return (
     <div className={classes.root}>
-      <h1 className={classes.title}>Thêm từ mới của bạn vào Dynonary</h1>
+      <h1 className={classes.title}>Thêm từ mới của bạn vào từ điển</h1>
       <div className="dyno-break"></div>
 
       <form onSubmit={handleSubmit(onSubmit)} autoComplete="off">
