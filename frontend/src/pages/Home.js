@@ -44,12 +44,12 @@ const FEATURE_LIST = [
     imgUrl: dictionaryIcon,
     to: ROUTES.DYNO_DICTIONARY,
   },
-  {
-    title: 'Từ vựng TOEIC',
-    subTitle: 'Các từ vựng thường gặp trong đề thi Toeic',
-    imgUrl: toeicIcon,
-    to: ROUTES.TOEIC_DICTIONARY,
-  },
+  // {
+  //   title: 'Từ vựng TOEIC',
+  //   subTitle: 'Các từ vựng thường gặp trong đề thi Toeic',
+  //   imgUrl: toeicIcon,
+  //   to: ROUTES.TOEIC_DICTIONARY,
+  // },
   {
     title: 'Từ vựng yêu thích của bạn',
     imgUrl: favoriteIcon,
