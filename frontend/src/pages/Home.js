@@ -33,8 +33,7 @@ const FEATURE_LIST = [
   },
   {
     title: 'Từ vựng với Flashcard',
-    subTitle:
-      'Flashcard phương pháp học từ vựng nổi tiếng',
+    subTitle: 'Flashcard phương pháp học từ vựng nổi tiếng',
     imgUrl: flashcardIcon,
     to: ROUTES.FLASHCARD,
   },
@@ -62,12 +61,12 @@ const FEATURE_LIST = [
     subTitle: 'Tất cả những động từ bất quy tắc trong tiếng Anh',
     to: ROUTES.IRREGULAR,
   },
-  {
-    title: 'Ngữ pháp',
-    imgUrl: grammarIcon,
-    subTitle: 'Danh sách tổng hợp những cấu trúc câu trong tiếng Anh',
-    to: ROUTES.GRAMMAR,
-  },
+  // {
+  //   title: 'Ngữ pháp',
+  //   imgUrl: grammarIcon,
+  //   subTitle: 'Danh sách tổng hợp những cấu trúc câu trong tiếng Anh',
+  //   to: ROUTES.GRAMMAR,
+  // },
   {
     title: 'Play Games',
     imgUrl: gameIcon,
@@ -84,8 +83,7 @@ const FEATURE_LIST = [
   {
     title: 'Đóng góp',
     imgUrl: editIcon,
-    subTitle:
-      'Bạn có thể thêm từ mới, sửa lỗi sai',
+    subTitle: 'Bạn có thể thêm từ mới, sửa lỗi sai',
     to: ROUTES.CONTRIBUTION,
   },
 ];
